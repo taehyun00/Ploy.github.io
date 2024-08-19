@@ -1,0 +1,173 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+.historyMain{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.historyTitle{
+    padding-left: 53.13vw;
+    padding-top: 23.59vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.history{
+    margin-left: 18.07vW;
+    position: relative;
+    top: -5vh;
+}
+h1, h2, h3,p{
+    font-family: 'Pretendard Variable';
+}
+
+.historyTitle h1{
+    font-weight: 800;
+    font-size: 5.75rem;
+    text-align: center;
+    background: linear-gradient(152.86deg, #1C4EFF 1.31%, #4E55FF 91.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;   
+    display: inline;
+    transform: rotate(4.32deg);
+}
+
+.historyTitle h2{
+    margin: 3rem  0 4rem ;
+    font-weight: 650;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #536299;
+    display: inline;
+    transform: rotate(1.94deg);
+
+}
+
+.history button{
+    margin-bottom: 3rem;
+    padding: 0.5rem 0.6rem 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #c7dfff;
+    font-family: 'Pretendard';
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.year>li{
+    min-height: 1.5rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem ;
+    display: flex;
+    gap: 3rem;
+}
+
+.year>li:after{
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    left: 0.75rem;
+}
+.year>li:before{
+    content: "";
+    width: 0.25rem;
+    height: 51.75%;
+    margin-top: 0.8rem;
+    background-color: #d4d3d3;
+    position: absolute;
+    left: 0.75rem;
+}
+
+.year h3{
+    font-size: 1.25rem;
+}
+
+.month{
+    margin-left: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+.month>li{
+    display: flex;
+    gap: 2rem;
+}
+.month h2{
+    font-size: 0.96rem;
+    font-weight: 625;
+}
+.news{
+    display: flex;
+}
+.news p{
+    font-size: 0.95rem;
+}
+
+.hBGimg img[alt="h1Border"]{
+    position: absolute;
+    left: 46.5%;
+    top: 21%;
+}
+.hBGimg img[alt="titleCircle"]{
+    position: absolute;
+    left: 43.9%;
+    top:17%;
+}
+
+.hBGimg img[alt="pointer"]{
+    position: absolute;
+    left: 84.75%;
+    top: 30.5%;
+}
+
+.hBGimg img[alt="h2Border"]{
+    position: absolute;
+    left: 55%;
+    top: 39.5%;
+}
+
+.hBGimg img[alt="h2Bborder"]{
+    position: absolute;
+    left: 53.75%;
+    top: 40%;
+}
+.hBGimg img[alt="bigPlus"]{
+    position: absolute;
+    bottom: 3.61%;
+    left: 14.5%;
+}
+.hBGimg img[alt="smallPlus"]{
+    position: absolute;
+    width: 5.75rem;
+    left: 11.25%;
+    bottom: 16%;
+    transform: rotate(47deg);
+}
+.hBGimg img[alt="double"]{
+    position: absolute;
+    right: 13%;
+    bottom: 28%;
+    transform: rotate(52deg);
+}
+.hBGimg img[alt="rhombus"]{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}

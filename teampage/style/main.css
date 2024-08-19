@@ -1,0 +1,173 @@
+*{
+  margin : 0;
+}
+
+
+body{
+    overflow-x: hidden;
+    background-size : cover;
+    
+}
+.main{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+img.img-0{
+  width: 25em;
+  height: 8em;
+  position: absolute;
+  top:250px;
+
+}
+img.img-1{
+  height: 51em;
+  
+}
+img.img-obj{
+  position: absolute;
+  top:250px;
+  left:-300px;
+}
+img.img-poi{
+  position: absolute;
+  width: 3.13em;
+  height: 3.13em;
+  top:600px;
+  animation:ani 1s infinite alternate;  
+}
+img.img-box{
+  width: 40em;
+  height: 32.5em;
+  position: absolute;
+  top:3em;
+  left:370px;
+}
+
+img.img-point{
+  width: 6em;
+  height: 23em;
+  position: absolute;
+  top:3em;
+  left:19.5em;
+}
+
+img.img-bbox{
+  position: absolute;
+  top:-100px;
+  left:1150px;
+}
+img.img-ten{
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  top:120px;
+  left:1000px;
+
+}
+img.img-dou{
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top:450px;
+  left:1000px;
+
+}
+.firstMain{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top:570px;
+}
+header {
+
+    height: 3.81em;
+    line-height: 60px;
+    z-index: 100; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    
+
+  }
+
+  hr.hr-13 {
+    height: 0.63em;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+  }
+  ul, li {
+    list-style: none;
+  }
+li a { 
+    padding: 0.94em; 
+    font-size: 1.06em;
+    font-weight:600; 
+    letter-spacing: -1.5px;
+    color: #000000; 
+  }
+  header > div {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 75%; 
+    margin: 0 auto;
+  }
+  header .gnb {
+    display: flex; 
+    gap: 1.88em;
+  }
+  a {
+    text-decoration-line: none;
+  }
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  a:link, a:visited {
+    background-color: #ffffff00;
+    color: rgb(0, 0, 0);
+    padding:0.63em 1.26em;
+    text-align: center;
+    text-decoration: none;
+  
+}
+  a:hover, a:focus {
+    outline: none;
+    color: #c0c0c0;
+    border-radius: 40px;
+    transition: all 0.2s;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+@keyframes ani{
+0%{transform:translate(0,-10px);}
+100%{transform:translate(0,0px);}
+}  
+div.div-2{
+  position: absolute;
+  top:1400px;
+  left:120px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div.div-1{
+  position: absolute;
+  top:1400px;
+  left:770px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+span.span1{
+  color:#62BCD0;
+}
+
